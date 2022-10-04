@@ -3,7 +3,23 @@
     1- use (rem) as unity 
     2- write comments
 
+    COLORS:
+    1-body background : #FBF7EE
+    2-button & big-title (general color ) : #0B46A3
+    
+    Dimensions:
+    1-width cards : 20%
+    2-No margin for card just use [ display flex & space between ]
+
 */
+
+
+:root{
+    --WidthCard : 20%;
+    --BodyBackground : #FBF7EE;
+    --GeneralColor : #0B46A3;
+
+}
 
 
 *{
@@ -12,9 +28,14 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: var(--BodyBackground);
+}
+
 body .container{
     margin-top: 1rem;
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
 }
+
