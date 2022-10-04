@@ -5,7 +5,16 @@
 
 */
 
-
+header nav{
+    display: flex;
+}
+.head{
+    display: flex;
+    list-style: none;
+}
+ul.head li{
+    color: black;
+}
 *{
     margin: 0;
     padding: 0;
