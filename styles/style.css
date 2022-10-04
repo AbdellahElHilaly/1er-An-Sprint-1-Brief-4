@@ -1,0 +1,20 @@
+/*
+    RULES :
+    1- use (rem) as unity 
+    2- write comments
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body .container{
+    margin-top: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
