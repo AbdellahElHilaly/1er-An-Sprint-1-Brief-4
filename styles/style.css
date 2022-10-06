@@ -93,23 +93,6 @@ h1{
     font-size: 44px;
 }
 
-
-@media only screen and (max-width: 700px){
-    img[alt='logo']{
-        padding-right: 0;
-    }
-    td{
-        display: block;
-        width: 100%;
-    }
-    .try{
-        padding: 8px 4px;
-    }
-    input[type="email"]{
-        padding: 8px 80px 8px 5px;
-    }
-}
-
 /* ~~~~~~~~~~~~~~~ MEhdi ~~~~~~~~~~~~~~~  */
 .cartes-ME{
     display: flex;
@@ -261,7 +244,22 @@ footer{
 }
 
 @media screen and (max-width: 700px){
+    
+    /* ~~~~~~~~~~~~~~~ tarek ~~~~~~~~~~~~~~~  */
 
+    img[alt='logo']{
+        padding-right: 0;
+    }
+    td{
+        display: block;
+        width: 100%;
+    }
+    .try{
+        padding: 8px 4px;
+    }
+    input[type="email"]{
+        padding: 8px 80px 8px 5px;
+    }
 /* ~~~~~~~~~~~~~~~ MEhdi ~~~~~~~~~~~~~~~  */
     .cartes-ME{
         flex-direction: column;
