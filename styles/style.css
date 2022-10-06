@@ -221,8 +221,8 @@ h1{
     color: white;
     font-weight: bold;
     transition: 0.3s;
-    mso-border-shadow: yes;
 }
+
 .transparentPricingCard ul li::before{
     content: " 👉";
     position: absolute;
@@ -239,6 +239,10 @@ footer{
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+.contact-YO{
+    text-decoration: none;
+}
+
 /* ~~~~~~~~~~~~~~~ Youssef ~~~~~~~~~~~~~~~  */
 
 @media screen and (max-width: 820px){
