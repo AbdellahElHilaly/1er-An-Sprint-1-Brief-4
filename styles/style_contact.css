@@ -1,0 +1,80 @@
+/*
+    RULES :
+    1- use (rem) as unity 
+    2- write comments
+
+    COLORS:
+    1-body background : #FBF7EE
+    2-button & big-title (general color ) : #0B46A3
+    
+    Dimensions:
+    1-width cards : 20%
+    2-No margin for card just use [ display flex & space between ]
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+:root{
+    --WidthCard : 20%;
+    --BodyBackground : #FBF7EE;
+    --GeneralColor : #0B46A3;
+    --pColor : #A4A4A4;
+    --backgroundCard : #FFF3D9 ;
+}
+
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    background-color: var(--BodyBackground);
+}
+
+body .container{
+    margin-top: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.Contact_US-AB h1{
+    text-align: center;
+}
+
+.Contact_US-AB .Tabeld-AB{
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    
+}
+
+.Contact_US-AB .Tabeld-AB td{
+    padding: .25rem;
+    width: 45%;
+}
+
+
+
+.Contact_US-AB .Tabeld-AB td input{
+      width: 100%;
+      height: 1.8rem;
+      padding-left: 10px;
+}
+
+.Contact_US-AB .Tabeld-AB  td .messag-AB{
+    height: 5rem;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+
+
