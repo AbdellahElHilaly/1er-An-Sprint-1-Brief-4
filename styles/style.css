@@ -1,41 +1,139 @@
-/*
-    RULES :
-    1- use (rem) as unity 
-    2- write comments
-
-    COLORS:
-    1-body background : #FBF7EE
-    2-button & big-title (general color ) : #0B46A3
-    
-    Dimensions:
-    1-width cards : 20%
-    2-No margin for card just use [ display flex & space between ]
-
-*/
-
-
-:root{
-    --WidthCard : 20%;
-    --BodyBackground : #FBF7EE;
-    --GeneralColor : #0B46A3;
-
-}
-
-
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: 'karla';
 }
-
 body{
-    background-color: var(--BodyBackground);
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    background-color: rgb(251, 247, 238);
+    font-family: 'karla';
+}
+img[alt='logo']{
+    width: 70px;
+    padding-right: 20vw;
+}
+.sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+img[alt='Checkmark']{
+    width: 13px;
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.barre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.barre ul{
+    display: flex;
+    list-style: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+nav>a{
+    font-weight: bolder;
+    color: #0C46A1;
+}
+nav ul li{
+    padding: 5px;
+}
+nav div{
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+}
+li>a{
+    color: black;
+}
+input[type="email"]{
+    padding: 8px 120px 8px 5px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+.try{
+    background-color: #0C46A1;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 9px 16px;
+    margin: 4px;
+    box-shadow: 0px 3px black;
+    border-radius: 5px;
+    border: none;
+}
+p{
+    font-size: 14px;
+    color: gray;
+}
+.cmt{
+    font-size: 10px;
+    padding: 12px 0px;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+span{
+    padding: 8px;
+}
+td img{
+    width: 100%;
+}
+td{
+    width: 50%;
+    padding: 6px;
+}
+.t1{
+    padding-right: 60px;
+}
+h1{
+    color: #13366D;
+    font-size: 44px;
 }
 
-body .container{
-    margin-top: 1rem;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
-}
 
+@media only screen and (max-width: 700px){
+    img[alt='logo']{
+        padding-right: 0;
+    }
+    td{
+        display: block;
+        width: 100%;
+    }
+    .try{
+        padding: 8px 4px;
+    }
+    input[type="email"]{
+        padding: 8px 80px 8px 5px;
+    }
+    nav{
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .barre{
+        margin: 6px 0px;
+        width: 100%;
+        align-items: center;
+    }
+    .barre ul{
+        font-size: 12px;
+        padding: 0;
+    }
+    .sign{
+        width: 40%;
+        margin: 0;
+    }
+}
