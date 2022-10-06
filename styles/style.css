@@ -65,6 +65,8 @@ input[type="email"]{
     border: none;
 }
 .p{
+    padding: 20px 0 18px 0;
+    line-height: 1.2rem;
     font-size: 14px;
     color: gray;
 }
