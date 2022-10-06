@@ -85,6 +85,7 @@ body .container{
 }
 .secondSection article p{
     color: var(--pColor);
+    margin-top: .7rem;
     margin-bottom: 2rem;
 }
 h1{
@@ -94,14 +95,16 @@ h1{
 }
 .transparentPricing{
     display: flex;
+    justify-content: space-between;
 }
+
 .transparentPricingCard, .transparentPricingCardWithImage{
     background-color: #fff3d9;
     border: 1px solid #b0afaf;
     border-radius: 10px;
     padding: 1rem;
     height: 20rem;
-    width: 22%;
+    width: 20%;
 }
 .transparentPricingCard + .transparentPricingCard, .transparentPricingCard + .transparentPricingCardWithImage{
     margin-left: 4%;
