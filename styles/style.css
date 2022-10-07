@@ -42,41 +42,47 @@ body .container{
     margin-right: 10%;
     width: 80%;
 }
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
 }
-div.logo{
+header div.logo{
     width: 15%;
 }
-ul.head{
-    align-items: center;
+
+header .head{
     display: flex;
     justify-content: center;
+    align-items: center;
+    
     list-style: none;
     font-weight: bold;
 }
-.head li{
+/* header .head li{
     padding: 4px 10px;
-}
-ul.head li a{
+} */
+
+header ul.head li a{
     text-decoration: none;
     color: black;
     transition: 0.5s;
     border-radius: 0.3rem;
-    padding: 1rem;
+    padding: .5rem 1rem;
 }
-ul.head li a:hover{
+header ul.head li a:hover{
     color: white;
     background-color: #375584;
 }
-ul.head li{
+header .head li{
     font-size: 90%;
-    padding: 8px 40px;
+    margin-right: 2px;
+   
 }
-a.signin{
+
+header a.signin{
     margin-left: -1vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 20%;
@@ -84,7 +90,7 @@ a.signin{
     text-decoration: none;
     transition: 0.5s;
 }
-a.signin:hover{
+header a.signin:hover{
     background-color: #3e8e41;
     color: white;
     padding: 0.8vw;
@@ -93,7 +99,7 @@ a.signin:hover{
     box-shadow: 0 3px #041c40;
     transition: 0.4s;
 }
-a.signin:active{
+header a.signin:active{
     box-shadow: 0 1px #041c40;
     transform: translateY(3px);
 }
@@ -118,56 +124,13 @@ input.bouton:active{
     --BodyBackground : #FBF7EE;
     --GeneralColor : #0B46A3;
 }
-@media only screen and (max-width: 700px) {
-    header{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-    header div.logo{
-        width: 50%;
-    }
-    header ul.head{
-        justify-content: space-between;
-    }
-    ul.head li{
-        font-size: 20px;
-        padding: 0px;
-    }
-    ul.head li a:hover , ul.head li a:active{
-        background: none;
-        color: black;
-    }
-    div.user{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    a.signin{
-        width: 100%;
-        margin-top: 5%;
-        margin-bottom: 10%;
-        align-self: center;
-        margin-left: 0;
-    }
-    a.signin:hover{
-        background-color: #3e8e41;
-        color: white;
-        border-radius: 4px;
-        border: none;
-        box-shadow: 0 3px #041c40;
-        transition: 0.4s;
-        width: 100%;
-    }
-    div.user input.trial{
-        justify-content: center;
-    }
-}
-/* ###################end part asma ###################### */
-/* ####################TAREK##################### */
 
+
+ 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~end part asma ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~start part tareck ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 img[alt='Checkmark']{
     width: 13px;
     align-items: center;
@@ -188,6 +151,7 @@ input[type="email"]{
     border-radius: 5px;
     border: none;
 }
+
 .p{
     padding: 20px 0 18px 0;
     line-height: 1.2rem;
@@ -204,10 +168,10 @@ input[type="email"]{
 .span-TA{
     padding: 8px;
 }
-td img{
+tr td img{
     width: 100%;
 }
-td{
+.tr td{
     width: 50%;
     padding: 6px;
 }
@@ -219,7 +183,12 @@ h1{
     font-size: 44px;
 }
 
-/* ~~~~~~~~~~~~~~~ MEhdi ~~~~~~~~~~~~~~~  */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~end part tareck ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~start part mehdi ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+ 
 .cartes-ME{
     display: flex;
     margin-top: 60px;
@@ -252,8 +221,8 @@ h1{
     color: black;
     font-weight: bold;
 }
-/* ~~~~~~~~~~~~~~~ MEhdi ~~~~~~~~~~~~~~~  */
-/* ~~~~~~~~~~~~~~~ Youssef ~~~~~~~~~~~~~~~  */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~end part mehdi ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~start part youssef ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .secondSection{
     margin-top: 2rem;
     display: flex;
@@ -298,7 +267,6 @@ h1{
 .transparentPricingCard{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin-bottom: 50px;
 }
 .transparentPricingCard label{
@@ -365,12 +333,74 @@ footer{
 }
 .contact-YO{
     text-decoration: none;
+    margin-top: auto;
+}
+.contact-YO :hover{
+     color: rebeccapurple;
+     text-decoration-line: underline; 
 }
 
-/* ~~~~~~~~~~~~~~~ Youssef ~~~~~~~~~~~~~~~  */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~start part yessef ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~responsive~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+
 
 @media screen and (max-width: 820px){
-    
+    /* ~~~~~~~~~~~~~~~ asmaa ~~~~~~~~~~~~~~~  */
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    header div.logo{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    header ul.head{
+        justify-content: space-between;
+    }
+    ul.head li{
+        font-size: 20px;
+        padding: 0px;
+    }
+    ul.head li a:hover , ul.head li a:active{
+        background: none;
+        color: black;
+    }
+    div.user{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    a.signin{
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        align-self: center;
+        margin-left: 0;
+    }
+    a.signin:hover{
+        background-color: #3e8e41;
+        color: white;
+        border-radius: 4px;
+        border: none;
+        box-shadow: 0 3px #041c40;
+        transition: 0.4s;
+        width: 100%;
+    }
+    div.user input.trial{
+        justify-content: center;
+    }
+
+
     /* ~~~~~~~~~~~~~~~ Tarek ~~~~~~~~~~~~~~~  */
     h1{
         text-align: center;
@@ -386,7 +416,7 @@ footer{
     .t1{
         padding: 0;
     }
-    td{
+   .tr td{
         display: block;
         width: 100%;
     }
@@ -406,7 +436,7 @@ footer{
         margin-bottom: 10px;
         width: 90%;
     }
-/* ~~~~~~~~~~~~~~~ MEhdi ~~~~~~~~~~~~~~~  */
+ 
 /* ~~~~~~~~~~~~~~~ YOUSSEF ~~~~~~~~~~~~~~~  */
 .secondSection{
     flex-direction: column;
@@ -437,5 +467,5 @@ footer{
 footer{
     text-align: center;
 }
-/* ~~~~~~~~~~~~~~~ YOUSSEF ~~~~~~~~~~~~~~~  */
+
 }
