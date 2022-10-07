@@ -75,11 +75,8 @@ input{
 
  
 
-
-
-.tabel-container-responsive-AB{
-    display: none;
-}
+ 
+ 
  
 
 .titel-AB{
@@ -161,15 +158,16 @@ input{
     }
 
     /* abdellah*/
-    .tabel-container-1-AB{
-        display: none;
-    }
-    .tabel-container-responsive-AB{
-        display: block;
-    }
+ 
+ 
 
     .Contact_US-AB .Tabeld-AB{
         width: 100%;
+    }
+
+    .Contact_US-AB .Tabeld-AB td{
+        width: 100%;
+        display: block;
     }
 
 }
