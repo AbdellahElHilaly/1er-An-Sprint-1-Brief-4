@@ -334,13 +334,17 @@ footer{
 .contact-YO{
     text-decoration: none;
     margin-top: auto;
+    color: #000000;
+    font-weight: bold;
+    font-size: 2rem;
+    bottom: 0;
 }
-.contact-YO :hover{
+.contact-YO:hover{
      color: rebeccapurple;
-     text-decoration-line: underline; 
+     text-decoration-line: underline;
 }
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~start part yessef ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~end part yessef ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~responsive~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
