@@ -230,7 +230,7 @@ h1{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.secondSection article p{
+.secondSection div p{
     color: var(--pColor);
     margin-top: .7rem;
     margin-bottom: 2rem;
@@ -443,11 +443,11 @@ footer{
     align-items: center;
     width: 100%;
 }
-.secondSection article h1{
+.secondSection div h1{
     text-align: center;
     font-size : 2rem;
 }
-.secondSection article p{
+.secondSection div p{
     margin-bottom: 1rem;
     text-align: center;
 }
